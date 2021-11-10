@@ -1,8 +1,5 @@
 import speech_recognition as sr
 import pyttsx3
-import wikipedia
-
-wikipedia.set_lang("es")
 
 name = 'alexa'
 
