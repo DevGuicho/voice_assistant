@@ -1,3 +1,14 @@
+'''
+    Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas
+    Instituto Politécnico Nacional
+    Multimedia
+    Noe Sierra Romero
+    Asistente de Voz para Enfermedades y Afecciones
+    Alumnos: 
+      - Lilia Montserrat Fuentes Navarrete
+      - Rosa Jazmin Portillo Sanchez
+      - Luis Vazquez Padilla Luis
+'''
 import speech_recognition as sr
 import pyttsx3
 
