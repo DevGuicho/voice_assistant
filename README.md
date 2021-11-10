@@ -47,3 +47,24 @@ Grupo de preguntas enfocadas en enfermedades
 ### Enfermedades Cerebrovasculares
 |Usuario|Asistente|
 |--|--|
+¿Qué son las enfermedades cerebrovasculares?|Son isquémicas y ocurren cuando las arterias que llevan sangre al cerebro se hacen angostas o se bloquean, causando una disminución severa o interrupción del flujo sanguíneo, conocida como isquemia.|
+|¿Cuales son los síntomas de las enfermedades cerebrovasculares?|Alteración repentina de la visión en un ojo o ambos, Pérdida repentina de la fuerza en un brazo, una pierna o ambos. Sensación de hormigueo en la cara, brazo o pierna. Aparición repentina de: Problemas para hablar y/o entender lo que se escucha, acompañada por balbuceo. Desequilibrio o inestabilidad. Dolor de cabeza.|
+|¿Cuáles son los factores de riesgo de las enfermedades cerebrovasculares?|
+### Coronavirus
+|Usuario|Asistente|
+|--|--|
+|¿Qué es el coronavirus?|Los coronavirus son una familia de virus que causan enfermedades (desde el resfriado común hasta enfermedades respiratorias más graves) y circulan entre humanos y animales.|
+|¿Cómo se transmite el coronavirus?|Los coronavirus humanos se transmiten de una persona infectada a otras: a través de las gotículas que expulsa un enfermo al toser y estornudar ,al tocar o estrechar la mano de una persona enferma, un objeto o superficie contaminada con el virus y luego llevarse las manos sucias a boca, nariz u ojos.|
+|¿Cuándo debo acudir a recibir atención médica?|Una persona debe sospechar de COVID-19 cuando presenta al menos dos de los siguientes síntomas: Tos / Estornudos, Fiebre, Dolor de cabeza.|
+### Sistema Circulatorio
+|Usuario|Asistente|
+|--|--|
+|¿Qué es el sistema circulatorio?|El sistema circulatorio se encarga de bombear, transportar y distribuir la sangre por todo el cuerpo. |
+|¿Cómo esta integrado el sistema circulatorio?|Se integra con el corazón y los vasos sanguíneos: arterias, venas y capilares.|
+|¿Qué es el corazón?|Es una bomba muscular y se considera el centro del sistema circulatorio.|
+### Cancer
+|Usuario|Asistente|
+|--|--|
+|¿Qué es el Cáncer?|El cáncer puede desarrollarse en cualquier parte del cuerpo. Se origina cuando las células crecen sin control y sobrepasan en número a las células normales. Esto hace que al cuerpo le resulte difícil funcionar de la manera que debería hacerlo|
+|¿Cuál es el tratamiento para el cancer?|La mayoría de las personas reciben una combinación de tratamientos, como cirugía con quimioterapia o radioterapia.|
+|¿Qué es Quimioterapia?|Tratamiento con medicamentos para interrumpir la formación de células cancerosas, ya sea mediante su destrucción o al impedir su multiplicación. La quimioterapia se administra por la boca, en inyección, por infusión o sobre la piel, según el tipo de cáncer y el estadio en que este se encuentra. Se administra sola o con otros tratamientos como cirugía, radioterapia o terapia biológica.|
