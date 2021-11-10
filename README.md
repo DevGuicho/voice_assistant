@@ -68,3 +68,7 @@ Grupo de preguntas enfocadas en enfermedades
 |¿Qué es el Cáncer?|El cáncer puede desarrollarse en cualquier parte del cuerpo. Se origina cuando las células crecen sin control y sobrepasan en número a las células normales. Esto hace que al cuerpo le resulte difícil funcionar de la manera que debería hacerlo|
 |¿Cuál es el tratamiento para el cancer?|La mayoría de las personas reciben una combinación de tratamientos, como cirugía con quimioterapia o radioterapia.|
 |¿Qué es Quimioterapia?|Tratamiento con medicamentos para interrumpir la formación de células cancerosas, ya sea mediante su destrucción o al impedir su multiplicación. La quimioterapia se administra por la boca, en inyección, por infusión o sobre la piel, según el tipo de cáncer y el estadio en que este se encuentra. Se administra sola o con otros tratamientos como cirugía, radioterapia o terapia biológica.|
+# Autores
+- Lilia Montserrat Fuentes Navarrete
+- Rosa Jazmin Portillo Sanchez
+- Luis Vazquez Padilla
