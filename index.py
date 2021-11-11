@@ -52,7 +52,7 @@ def checkSentence(sentence, claves):
       i=i+1
   if i>=3:
     return True
-  if i ==claves.length:
+  if i ==len(claves):
     return True
   return False  
 
