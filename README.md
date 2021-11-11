@@ -5,7 +5,7 @@ Este asistente de voz creado con Python para dar información sobre el cuerpo hu
 |Usuario| Asistente|
 |--|--|
 |¿Cuántos huesos tiene el cuerpo humano?|El cuerpo humano adulto tiene nada menos que 206 huesos|
-|¿Cuántos dientes tiene una persona adulta?|2 piezas dentales es la cantidad normal para un adulto|
+|¿Cuántos dientes tiene una persona adulta?|32 piezas dentales es la cantidad normal para un adulto|
 |¿Cuál es el porcentaje de agua en el cuerpo humano?|El cuerpo humano está compuesto en un 60 por ciento de agua, el cerebro se compone en un 70 por ciento de agua, la sangre en un 80 por ciento y los pulmones se componen en un 90 por ciento de agua.|
 |¿Cuántos músculos tenemos?|El cuerpo humano contiene aproximadamente 650 músculos estriados.|
 |¿Cuántos órganos tiene el cuerpo humano?|El cuerpo humano tiene 21 órganos|
@@ -30,7 +30,7 @@ Este grupo de preguntas esta enfocado en afecciones y enfermedades comunes
 |Usuario|Asistente|
 |--|--|
 |¿Qué es la varicela?|La varicela es una infección causada por el virus de la varicela-zóster. Causa una erupción en la piel con picazón y pequeñas ampollas con líquido. La varicela es muy contagiosa para personas que no han tenido la enfermedad antes o no se han vacunado.|
-|¿Qué pasa si a un adulto le da Varicela?|Puede causar: deshidratación, neumonía, problemas de sangrado, infección o inflamación cerebral, infecciones bacterianas de la piel, infecciones del torrente sanguíneo (septicemia), síndrome de shock tóxico, infecciones de los huesos, infecciones de las articulaciones, o la muerte.|
+|¿Qué pasa si a un adulto se contagia Varicela?|Puede causar: deshidratación, neumonía, problemas de sangrado, infección o inflamación cerebral, infecciones bacterianas de la piel, infecciones del torrente sanguíneo (septicemia), síndrome de shock tóxico, infecciones de los huesos, infecciones de las articulaciones, o la muerte.|
 ### Aparato Digestivo
 |Usuario|Asistente|
 |--|--|
