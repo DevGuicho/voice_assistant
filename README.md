@@ -48,8 +48,8 @@ Grupo de preguntas enfocadas en enfermedades
 |Usuario|Asistente|
 |--|--|
 ¿Qué son las enfermedades cerebrovasculares?|Son isquémicas y ocurren cuando las arterias que llevan sangre al cerebro se hacen angostas o se bloquean, causando una disminución severa o interrupción del flujo sanguíneo, conocida como isquemia.|
-|¿Cuales son los síntomas de las enfermedades cerebrovasculares?|Alteración repentina de la visión en un ojo o ambos, Pérdida repentina de la fuerza en un brazo, una pierna o ambos. Sensación de hormigueo en la cara, brazo o pierna. Aparición repentina de: Problemas para hablar y/o entender lo que se escucha, acompañada por balbuceo. Desequilibrio o inestabilidad. Dolor de cabeza.|El sexo. Se presenta con mayor frecuencia en hombres que en mujeres. Alcoholismo. Tabaquismo. Inactividad física. Obesidad. Presión arterial alta. Diabetes Mellitus. Niveles de colesterol elevados.|
-|¿Cuáles son los factores de riesgo de las enfermedades cerebrovasculares?|
+|¿Cuales son los síntomas de las enfermedades cerebrovasculares?|Alteración repentina de la visión en un ojo o ambos, Pérdida repentina de la fuerza en un brazo, una pierna o ambos. Sensación de hormigueo en la cara, brazo o pierna. Aparición repentina de: Problemas para hablar y/o entender lo que se escucha, acompañada por balbuceo. Desequilibrio o inestabilidad. Dolor de cabeza.|
+|¿Cuáles son los factores de riesgo de las enfermedades cerebrovasculares?|El sexo. Se presenta con mayor frecuencia en hombres que en mujeres. Alcoholismo. Tabaquismo. Inactividad física. Obesidad. Presión arterial alta. Diabetes Mellitus. Niveles de colesterol elevados.|
 ### Coronavirus
 |Usuario|Asistente|
 |--|--|
