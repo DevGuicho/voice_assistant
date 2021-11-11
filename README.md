@@ -43,7 +43,7 @@ Grupo de preguntas enfocadas en enfermedades
 |--|--|
 |¿Qué son enfermedades cardiovasculares?|Las enfermedades cardiovasculares (ECV) son un grupo de desórdenes del corazón y de los vasos sanguíneos.|
 |¿Cuáles son los síntomas comunes de las enfermedades cardiovasculares?|Molestias en el pecho, molestias en los brazos, hombro izquierdo, mandíbula o espalda|
-|¿Cuáles son las princípiales factores de riesgo de las ecv?|Las causas más importantes son una dieta malsana, la inactividad física, el consumo de tabaco y el consumo nocivo de alcohol|
+|¿Cuáles son las princípiales factores de riesgo de las enfermedades cardiovasculares?|Las causas más importantes son una dieta malsana, la inactividad física, el consumo de tabaco y el consumo nocivo de alcohol|
 ### Enfermedades Cerebrovasculares
 |Usuario|Asistente|
 |--|--|
