@@ -35,7 +35,7 @@ Este grupo de preguntas esta enfocado en afecciones y enfermedades comunes
 |Usuario|Asistente|
 |--|--|
 |¿Que es el aparato digestivo?|Conjunto de órganos que procesan los alimentos y los líquidos para descomponerlos en sustancias que el cuerpo usa como fuente de energía, o para el crecimiento y la reparación de tejidos.|
-|¿Qué órganos conforman al aparato digestivo?|El aparato digestivo está formado por el tracto gastrointestinal, también llamado tracto digestivo, y el hígado, el páncreas y la vesícula biliar.|
+|¿Cómo se conforma el aparato digestivo?|El aparato digestivo está formado por el tracto gastrointestinal, también llamado tracto digestivo, y el hígado, el páncreas y la vesícula biliar.|
 ## Preguntas de Nivel 3
 Grupo de preguntas enfocadas en enfermedades
 ### Enfermedades Cardiovasculares
