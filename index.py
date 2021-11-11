@@ -42,20 +42,43 @@ def listen():
     return "Google Speech Recognition could not understand audio"
   
 
+def checkSentence(sentence, claves):
+  se = sentence.split()
+  print(claves)
+  print(se)
+  i = 0
+  for word in se:
+    if word in claves:
+      i=i+1
+  if i>=3:
+    return True
+  if i ==claves.lenght:
+    return True
+  return False  
+
+
+  
+
 def oneAnswer(rec):
-  if 'cuántos huesos tiene el cuerpo humano' in rec:
+  checkList1 = ['cuántos', 'huesos', 'humano']
+  checkList2 = ['cuántos','dientes','humano','persona']
+  checkList3 = ['porcentaje','agua','humano', 'persona']
+  checkList4 = ['cuántos','músculos','humano', 'persona']
+  checkList5 = ['cuántos','órganos','humano', 'persona']
+  
+  if checkSentence(rec,checkList1):
     talk('El cuerpo humano adulto tiene nada menos que 206 huesos')
     return True
-  elif 'cuántos dientes tiene una persona adulta' in rec:
+  elif checkSentence(rec, checkList2):
     talk('32 piezas dentales es la cantidad normal para un adulto')
     return True
-  elif 'cuál es el porcentaje de agua en el cuerpo humano' in rec:
+  elif checkSentence(rec, checkList3):
     talk('El cuerpo humano está compuesto en un 60 por ciento de agua, el cerebro se compone en un 70 por ciento de agua, la sangre en un 80 por ciento y los pulmones se componen en un 90 por ciento de agua.')
     return True
-  elif 'cuántos músculos tenemos' in rec:
+  elif checkSentence(rec, checkList4):
     talk('El cuerpo humano contiene aproximadamente 650 músculos estriados.')
     return True
-  elif 'cuántos órganos tiene el cuerpo humano' in rec:
+  elif checkSentence(rec, checkList5):
     talk('El cuerpo humano tiene 21 órganos')
     return True
   
@@ -63,34 +86,44 @@ def oneAnswer(rec):
   
 
 def twoAnswers(rec):
-  if 'qué es el acné' in rec:
+  checkList1 = ['qué','acné']
+  checkList2 = ['prevenir', 'acné']
+  checkList3 = ['qué', 'menopausia']
+  checkList4 = ['edad', 'menopausia']
+  checkList5 = ['qué', 'piojos']
+  checkList6 = ['cómo','contagian','piojos', 'contagio']
+  checkList7 = ['qué', 'varicela']
+  checkList8 = ['qué', 'adulto','varicela', 'contagia']
+  checkList9 = ['aparato', 'digestivo']
+  checkList10 = ['órganos','aparato', 'digestivo']
+  if checkSentence(rec, checkList1):
     talk('El acne es una enfermedad cutánea que suele aparecer a partir de los 12 años de edad, sobre todo en la cara, y que, si no hay complicaciones graves, solo se desarrolla durante la pubertad y desaparece hacia los 18 o 20 años.')
     return True
-  elif 'cómo prevenir el acné' in rec:
+  elif checkSentence(rec, checkList2):
     talk('Lávate la cara dos veces al día (no más) con agua tibia y un jabón suave fabricado específicamente para personas con acné. Masajéate suavemente la cara describiendo movimientos circulares. No te frotes la cara.')
     return True
-  elif 'qué es la menopausia' in rec:
+  elif checkSentence(rec, checkList3):
     talk('Es un proceso biológico natural que marca el final de los ciclos menstruales. Se diagnostica después de que transcurren doce meses sin que tengas un período menstrual.')
     return True
-  elif 'a qué edad se da la menopausia' in rec:
+  elif checkSentence(rec, checkList4):
     talk('La menopausia puede producirse entre los 40 y 50 años, pero la edad promedio es a los 51 años.')
     return True
-  elif 'qué son los piojos' in rec:
+  elif checkSentence(rec, checkList5):
     talk('Los piojos son pequeños insectos que viven en la cabeza de las personas. Los piojos adultos tienen el tamaño de las semillas de sésamo. Los huevos, llamados liendres, son incluso más pequeños, aproximadamente del tamaño de una escama de caspa.')
     return True
-  elif 'cómo se contagian los piojos' in rec:
+  elif checkSentence(rec, checkList6):
     talk('Los piojos se mueven arrastrándose, porque no pueden saltar ni volar. Se contagian a través del contacto cercano de persona a persona. En raras ocasiones, se pueden contagiar al compartir objetos personales como sombreros o cepillos para el cabello. La higiene personal y la limpieza no se relacionan con tener piojos.')
     return True
-  elif 'qué es la varicela' in rec:
+  elif checkSentence(rec, checkList7):
     talk('La varicela es una infección causada por el virus de la varicela-zóster. Causa una erupción en la piel con picazón y pequeñas ampollas con líquido. La varicela es muy contagiosa para personas que no han tenido la enfermedad antes o no se han vacunado. ')
     return True
-  elif 'qué pasa si a un adulto le da varicela' in rec:
+  elif checkSentence(rec, checkList8):
     talk('Puede causar: deshidratación, neumonía, problemas de sangrado, infección o inflamación cerebral, infecciones bacterianas de la piel, infecciones del torrente sanguíneo (septicemia), síndrome de shock tóxico, infecciones de los huesos, infecciones de las articulaciones, o la muerte.')
     return True
-  elif 'qué es el aparato digestivo' in rec:
+  elif checkSentence(rec, checkList9):
     talk('Conjunto de órganos que procesan los alimentos y los líquidos para descomponerlos en sustancias que el cuerpo usa como fuente de energía, o para el crecimiento y la reparación de tejidos.')
     return True
-  elif 'qué órganos conforman el aparato digestivo' in rec:
+  elif checkSentence(rec, checkList10):
     talk('El aparato digestivo está formado por el tracto gastrointestinal, también llamado tracto digestivo, y el hígado, el páncreas y la vesícula biliar.')
     return True
 
