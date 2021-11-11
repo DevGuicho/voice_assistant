@@ -78,13 +78,3 @@ class Assistant():
           self.talk('No tengo información sobre eso')
     self.engine.stop()
 
-"""  
- def run(self):
-    while self.isOn:
-      text = self.listen()
-      if 'apaga te alexa' in text:
-        self.talk('Hasta pronto')
-        self.isOn = False
-      elif 'hola alexa' in text:
-        self.directQuestions()
-    self.engine.stop() """
