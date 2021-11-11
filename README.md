@@ -26,7 +26,7 @@ pip install pyttsx3
 |¿Cuál es el porcentaje de agua en el cuerpo humano?|El cuerpo humano está compuesto en un 60 por ciento de agua, el cerebro se compone en un 70 por ciento de agua, la sangre en un 80 por ciento y los pulmones se componen en un 90 por ciento de agua.|
 |¿Cuántos músculos tenemos?|El cuerpo humano contiene aproximadamente 650 músculos estriados.|
 |¿Cuántos órganos tiene el cuerpo humano?|El cuerpo humano tiene 21 órganos|
-## Preguntas de Nivel 2
+### Preguntas de Nivel 2
 Este grupo de preguntas esta enfocado en afecciones y enfermedades comunes
 #### Acné
 |Usuario|Asistente|
