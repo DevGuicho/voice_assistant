@@ -25,10 +25,12 @@ class Assistant():
       self.twoAnswerQuestions = twoAnswerQuestions
       self.threeAnswerQuestions = threeAnswerQuestions
 
+  # Sintetiza voz a apartir de un texto
   def talk(self, text):
     self.engine.say(text)
     self.engine.runAndWait()
 
+  # Función para reconocimiento de voz en español
   def listen(self):
     try:
       with sr.Microphone() as source:
@@ -41,31 +43,25 @@ class Assistant():
       self.talk('No entendí eso')
       return "Google Speech Recognition could not understand audio"
 
+  # Selecciona una respuesta a partir del texto reconocido y algunas palabras clave
   def checkAnswer(self, questions, text):
+    # Obtenemos la respuesta más apropieda y la sintentiza
     for q in questions:
       if q.checkSentence(sentence = text):
         self.talk(q.answer)
         return True
     self.talk('No tengo información sobre eso')
     return False
-
-  def directQuestions(self): 
-    self.talk('Hola, ¿Que quieres saber?')
-    
-    while True:
-      text = self.listen()
-      if 'es todo' in text:
-        self.talk('Espero haberte ayudado')
-        break
-      self.checkAnswer(questions=self.oneAsnwerQuestions, text = text)
-  
-
+# El asistente comienza la escuha activa
   def run(self):
     while self.isOn:
       text = self.listen()
       print(text)
+      # Verifica que la palabra clave se pronuncie para comenzar a buscar una respuesta
       if 'alexa' in text:
-        if any(word in text for word in ['hueso','órgano','diente','músculos', 'agua']):
+        if 'hola' in text: 
+          self.talk('Hola, ¿En que te puedo ayudar?')
+        elif any(word in text for word in ['hueso','órgano','diente','músculos', 'agua']):
           self.checkAnswer(text = text,questions = self.oneAsnwerQuestions)
         elif any(word in text for word in ['acné','menopausia','piojos','varicela', 'aparato digestivo']):
           self.checkAnswer(text = text, questions=self.twoAnswerQuestions)

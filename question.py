@@ -16,6 +16,7 @@ class Question():
       self.claves = claves
       self.rating = 0
 
+  # Verifica que esten todas las palabras clave en una pregunta para obtener una respuesta
   def checkSentence(self, sentence):
     se = sentence.split()
     i = 0
