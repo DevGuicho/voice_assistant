@@ -9,7 +9,7 @@ pip install PyAdudio
 ```
 Si tienes problemas instalando PyAudio por favor ve a este [link](https://stackoverflow.com/questions/61290821/error-command-errored-out-with-exit-status-1-while-installing-pyaudio)
 
-Para sitentizar voz a partir de texto
+Para sintetizar voz a partir de texto
 ```
 pip install pyttsx3
 ```
